@@ -1,4 +1,11 @@
-## Nightly
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
 
 ### Added
 - Setting for disabling flashing lights
@@ -63,7 +70,7 @@
 - Many water shader issues have been fixed
 - Flee if attacked even if attacker is not close.
 
-## [0.13.0]
+## [0.13.0] - 2022-07-23
 
 ### Added
 - Chat commands to mute and unmute players
@@ -144,7 +151,7 @@
 - Modular weapons now have a selling price
 - Closing a subwindow now only regrabs the cursor if no other subwindow requires it.
 
-## [0.12.0]
+## [0.12.0] - 2022-02-19
 
 ### Added
 
@@ -247,7 +254,7 @@
 - Guards will defend villagers instead of simply threatening the attacker
 - Seafaring ships no longer spawn on dry land
 
-## [0.11.0]
+## [0.11.0] - 2021-09-11
 
 ### Added
 
@@ -329,7 +336,7 @@
 - Gliders no longer suffer from unreasonable amounts of induced drag
 - Camera is now clipping a lot less
 
-## [0.10.0]
+## [0.10.0] - 2021-06-12
 
 ### Added
 
@@ -492,7 +499,7 @@
 - The login and character selection screens no longer cause high GPU usage when the framerate limit is set to Unlimited.
 - Deadwood will now attack targets who are at different elevations than itself.
 
-## [0.9.0]
+## [0.9.0] - 2021-03-20
 
 ### Added
 
@@ -592,7 +599,7 @@
 - Mandated that merchants not wander away during a trade
 - Fixed the villager conception of evil by encouraging them to react violently to characters wearing cultist gear
 
-## [0.8.0]
+## [0.8.0] - 2020-11-28
 
 ### Added
 
@@ -701,7 +708,7 @@
 - Significantly improved water movement AI to stop entities getting stuck
 - Prevented entities, sprites and particles being lit when not visible to the sun
 
-## [0.7.0]
+## [0.7.0] - 2020-08-15
 
 ### Added
 
@@ -793,7 +800,7 @@
 - Wield requirement to swap loadout; fixes issue with unable swap loadout outside of combat
 - Disclaimer wall of text on first startup
 
-## [0.6.0]
+## [0.6.0] - 2020-05-16
 
 ### Added
 
@@ -886,7 +893,7 @@
 - The `/object` command can create any object in comp::object::Body
 - The `/help` command takes an optional argument. `/help /sudo` will show you information about only the sudo command.
 
-## [0.5.0]
+## [0.5.0] - 2020-01-31
 
 ### Added
 
@@ -978,7 +985,7 @@
 
 - Remove heaptrack as it is now deprecated
 
-## [0.4.0]
+## [0.4.0] - 2019-10-10
 
 ### Added
 
@@ -1000,7 +1007,7 @@
 - Improved colors and lighting
 - Replaced view distance culling with frustum culling
 
-## [0.3.0]
+## [0.3.0] - 2019-08-04
 
 ### Added
 
@@ -1030,7 +1037,7 @@
 - Many performance optimizations
 - Better world generation, more biomes
 
-## [0.2.0]
+## [0.2.0] - 2019-05-28
 
 ### Added
 
@@ -1046,3 +1053,21 @@
 - Combat: You can finally swing your sword that has been on your back. Enemies are coming soon, but you can always fight with other players
 - When a server dies the game no longer crashes - you will be just kicked to the main menu
 
+## [0.1.0] - 2018-XX-XX
+
+_0.1.0 was part of the legacy engine_
+
+[unreleased]: https://gitlab.com/veloren/veloren/compare?from=v0.13.0&to=master
+[0.13.0]: https://gitlab.com/veloren/veloren/compare?from=v0.12.0&to=v0.13.0
+[0.12.0]: https://gitlab.com/veloren/veloren/compare?from=v0.11.0&to=v0.12.0
+[0.11.0]: https://gitlab.com/veloren/veloren/compare?from=v0.10.0&to=v0.11.0
+[0.10.0]: https://gitlab.com/veloren/veloren/compare?from=v0.9.0&to=v0.10.0
+[0.9.0]: https://gitlab.com/veloren/veloren/compare?from=v0.8.0&to=v0.9.0
+[0.8.0]: https://gitlab.com/veloren/veloren/compare?from=v0.7.0&to=v0.8.0
+[0.7.0]: https://gitlab.com/veloren/veloren/compare?from=v0.6.0&to=v0.7.0
+[0.6.0]: https://gitlab.com/veloren/veloren/compare?from=v0.5.0&to=v0.6.0
+[0.5.0]: https://gitlab.com/veloren/veloren/compare?from=v0.4.0&to=v0.5.0
+[0.4.0]: https://gitlab.com/veloren/veloren/compare?from=v0.3.0&to=v0.4.0
+[0.3.0]: https://gitlab.com/veloren/veloren/compare?from=v0.2.0&to=v0.3.0
+[0.2.0]: https://gitlab.com/veloren/veloren/compare?from=7d17f8b67a2a6d5aa00730f028cedc430fd5075a&to=v0.2.0
+[0.1.0]: https://gitlab.com/veloren/game
