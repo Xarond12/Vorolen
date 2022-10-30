@@ -1053,3 +1053,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Combat: You can finally swing your sword that has been on your back. Enemies are coming soon, but you can always fight with other players
 - When a server dies the game no longer crashes - you will be just kicked to the main menu
 
+[unreleased]: https://xarond.eu
+[0.13.0]: https://xarond.eu
+[0.12.0]: https://xarond.eu
+[0.11.0]: https://xarond.eu
+[0.10.0]: https://xarond.eu
+[0.9.0]: https://xarond.eu
+[0.8.0]: https://xarond.eu
+[0.7.0]: https://xarond.eu
+[0.6.0]: https://xarond.eu
+[0.5.0]: https://xarond.eu
+[0.4.0]: https://xarond.eu
+[0.3.0]: https://xarond.eu
+[0.2.0]: https://xarond.eu
+[0.1.0]: https://xarond.eu
