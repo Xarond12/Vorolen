@@ -1,9 +1,4 @@
-# Changelog
 
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
@@ -70,7 +65,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Many water shader issues have been fixed
 - Flee if attacked even if attacker is not close.
 
-## [0.13.0] - 2022-07-23
+## [0.13.0]
 
 ### Added
 - Chat commands to mute and unmute players
@@ -151,7 +146,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Modular weapons now have a selling price
 - Closing a subwindow now only regrabs the cursor if no other subwindow requires it.
 
-## [0.12.0] - 2022-02-19
+## [0.12.0]
 
 ### Added
 
@@ -254,7 +249,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Guards will defend villagers instead of simply threatening the attacker
 - Seafaring ships no longer spawn on dry land
 
-## [0.11.0] - 2021-09-11
+## [0.11.0]
 
 ### Added
 
@@ -336,7 +331,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Gliders no longer suffer from unreasonable amounts of induced drag
 - Camera is now clipping a lot less
 
-## [0.10.0] - 2021-06-12
+## [0.10.0]
 
 ### Added
 
@@ -499,7 +494,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The login and character selection screens no longer cause high GPU usage when the framerate limit is set to Unlimited.
 - Deadwood will now attack targets who are at different elevations than itself.
 
-## [0.9.0] - 2021-03-20
+## [0.9.0]
 
 ### Added
 
@@ -599,7 +594,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Mandated that merchants not wander away during a trade
 - Fixed the villager conception of evil by encouraging them to react violently to characters wearing cultist gear
 
-## [0.8.0] - 2020-11-28
+## [0.8.0]
 
 ### Added
 
@@ -708,7 +703,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Significantly improved water movement AI to stop entities getting stuck
 - Prevented entities, sprites and particles being lit when not visible to the sun
 
-## [0.7.0] - 2020-08-15
+## [0.7.0]
 
 ### Added
 
@@ -735,7 +730,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added faction chat `/join_faction` `/faction`
 - Added regional, local, and global chat (`/region`, `/say`, and `/world`, respectively)
 - Added command shortcuts for each of the above chat modes (`/g`, `/f`, `/r`, `/s`, and `/w`, respectively and `/t` for `/tell`)
-- Ability to wield 2 × 1h weapons and shields (Note: 1h weapons & shields are not currently avaliable, see [!1095](https://gitlab.com/veloren/veloren/-/merge_requests/1095) for more info)
+- Ability to wield 2 × 1h weapons and shield
 - Zoomable Map
 - M2 attack for hammer
 - Spawnable training dummies
@@ -800,7 +795,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Wield requirement to swap loadout; fixes issue with unable swap loadout outside of combat
 - Disclaimer wall of text on first startup
 
-## [0.6.0] - 2020-05-16
+## [0.6.0]
 
 ### Added
 
@@ -893,7 +888,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The `/object` command can create any object in comp::object::Body
 - The `/help` command takes an optional argument. `/help /sudo` will show you information about only the sudo command.
 
-## [0.5.0] - 2020-01-31
+## [0.5.0]
 
 ### Added
 
@@ -985,7 +980,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Remove heaptrack as it is now deprecated
 
-## [0.4.0] - 2019-10-10
+## [0.4.0]
 
 ### Added
 
@@ -1007,7 +1002,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improved colors and lighting
 - Replaced view distance culling with frustum culling
 
-## [0.3.0] - 2019-08-04
+## [0.3.0]
 
 ### Added
 
@@ -1037,7 +1032,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Many performance optimizations
 - Better world generation, more biomes
 
-## [0.2.0] - 2019-05-28
+## [0.2.0]
 
 ### Added
 
@@ -1053,21 +1048,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Combat: You can finally swing your sword that has been on your back. Enemies are coming soon, but you can always fight with other players
 - When a server dies the game no longer crashes - you will be just kicked to the main menu
 
-## [0.1.0] - 2018-XX-XX
-
-_0.1.0 was part of the legacy engine_
-
-[unreleased]: https://gitlab.com/veloren/veloren/compare?from=v0.13.0&to=master
-[0.13.0]: https://gitlab.com/veloren/veloren/compare?from=v0.12.0&to=v0.13.0
-[0.12.0]: https://gitlab.com/veloren/veloren/compare?from=v0.11.0&to=v0.12.0
-[0.11.0]: https://gitlab.com/veloren/veloren/compare?from=v0.10.0&to=v0.11.0
-[0.10.0]: https://gitlab.com/veloren/veloren/compare?from=v0.9.0&to=v0.10.0
-[0.9.0]: https://gitlab.com/veloren/veloren/compare?from=v0.8.0&to=v0.9.0
-[0.8.0]: https://gitlab.com/veloren/veloren/compare?from=v0.7.0&to=v0.8.0
-[0.7.0]: https://gitlab.com/veloren/veloren/compare?from=v0.6.0&to=v0.7.0
-[0.6.0]: https://gitlab.com/veloren/veloren/compare?from=v0.5.0&to=v0.6.0
-[0.5.0]: https://gitlab.com/veloren/veloren/compare?from=v0.4.0&to=v0.5.0
-[0.4.0]: https://gitlab.com/veloren/veloren/compare?from=v0.3.0&to=v0.4.0
-[0.3.0]: https://gitlab.com/veloren/veloren/compare?from=v0.2.0&to=v0.3.0
-[0.2.0]: https://gitlab.com/veloren/veloren/compare?from=7d17f8b67a2a6d5aa00730f028cedc430fd5075a&to=v0.2.0
-[0.1.0]: https://gitlab.com/veloren/game
